@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,18 +7,16 @@
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
   <script src="firebase.js"></script>
-  <link rel="StyleSheet" href="style.css">
-  <title>Sign Up</title>
+  <link rel="StyleSheet" href="main.css">
+  <title>Notes</title>
 </head>
-
 <body>
-  <div class="Form">
-    <input id="email" placeholder="Enter email">
-    <input id="password" placeholder="Enter password">
-    <button onclick="LogIn()">Login</button>
-    <p>Don't Have An Account?<a href="index.html">Sign Up</a></p>
-  </div>
-  <script src="script.js"></script>
+<div class="NoteBox">
+<h1>Notes</h1>
+<input id="title" class="title" placeholder="Title">
+<input id="note" class="note" placeholder="Note Something Down">
+<button id="action" onclick="Add()" >Add Note</button>
+</div>
+<button class="check" onclick="check()">Check Notes</button>
 </body>
-
 </html>
