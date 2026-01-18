@@ -66,47 +66,6 @@ UserManagementAndNotesApp/
 
 ---
 
-## ▶️ How to Run the Project
-
-### Option 1: Run Locally
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/ArsalJan34/UserManagementAndNotesApp.git
-```
-
-2. Open the project folder:
-
-```bash
-cd UserManagementAndNotesApp
-```
-
-3. Open `index.html` in your browser
-   (or use **Live Server** in VS Code).
-
----
-
-### Option 2: Live Demo
-
-The project is deployed using **GitHub Pages**.
-Open the deployed link from the **Deployments** section of the repository.
-
----
-
-## 🔥 Firebase Setup
-
-Before running the project, make sure your Firebase credentials are correctly added in:
-
-```js
-firebase.js
-```
-
-You need:
-
-* Firebase project
-* Authentication enabled (Email/Password)
-* Firestore or Realtime Database enabled
 
 ---
 
